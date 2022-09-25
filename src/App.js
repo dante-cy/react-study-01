@@ -1,9 +1,13 @@
-import './App.css';
+import ProductList from "./components/pages/ProductList";
+
+let AppCallCount = 0;
 
 function App() {
+  AppCallCount++;
+  console.log(`App이 ${AppCallCount}번 실행됨.`);
   return (
     <div className="App">
-      <h1>안녕하세요.</h1>
+      <ProductList className="container mx-auto" />
     </div>
   );
 }
