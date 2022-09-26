@@ -1,3 +1,4 @@
+import FormRef from "./components/pages/FormRef";
 import ProductList from "./components/pages/ProductList";
 import RecordedCount from "./components/pages/RecodedCount";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       {/* <ProductList className="container mx-auto" /> */}
       <RecordedCount />
+      {/* <FormRef /> */}
     </div>
   );
 }
